@@ -22,6 +22,7 @@ body{
     color: gold;
     text-shadow: 3px 3px green;
     animation: hueRotate 2s infinite;
+    cursor: pointer;
 }
 @keyframes hueRotate {
     0%{
