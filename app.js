@@ -499,7 +499,7 @@ else if($('#q1').is(':empty') && $('#q2').is(':empty') && $('#q3').is(':empty') 
 && $('#q13').is(':empty') && $('#q14').is(':empty') && $('#q15').is(':empty') && $('#q16').is(':empty')
 && $('#q17').is(':empty') && $('#q18').is(':empty') && $('#q19').is(':empty') && $('#q20').is(':empty')
 && $('#q21').is(':empty') && $('#q22').is(':empty') && $('#q23').is(':empty') && $('#q24').is(':empty')
-&& $('#q25').is(':empty') && playerScore < 0){
+&& $('#q25').is(':empty') && playerScore <= 0){
     swal({
         title: "You Lost",
         text: "Try again?",
