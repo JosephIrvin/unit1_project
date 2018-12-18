@@ -26,8 +26,8 @@ For the value of the questions it seemed easier to give that number in the HTML 
 
 
 ### Libraries and External Code
-- Bootstrap
-- JQuery
-- SweetAlerts
-- Google Fonts
+- [Bootstrap](https://getbootstrap.com/) *All Modals*
+- [JQuery](https://jquery.com/) *Multiple choice button functions*
+- [SweetAlerts](https://sweetalert.js.org/) *End game button alerts*
+- [Google Fonts](https://fonts.google.com/) *All fonts*
 
