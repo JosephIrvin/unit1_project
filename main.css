@@ -4,25 +4,31 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #060CE9;
+    background-color: #7CAFC4;
 }
 #gameHeader{
     text-align: center;
 }
 #title{
     font-size: 3em;
-    color: gold;
+    color: #FCFF4B;
+    font-family: 'Press Start 2P', cursive;
+
 }
 #score{
     font-size: 3em;
-    color: gold;
+    color: #FCFF4B;
+    font-family: 'Aldrich', sans-serif;
+
 }
 
 #endgame{
-    color: gold;
+    color: #FCFF4B;
     text-shadow: 3px 3px green;
     animation: hueRotate 2s infinite;
     cursor: pointer;
+    font-family: 'Aldrich', sans-serif;
+
 }
 @keyframes hueRotate {
     0%{
@@ -37,36 +43,39 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1/2fr 1fr 1fr 1fr 1fr 1fr;
-    background-color: #3e2723;
+    background-color: #FFAD05;
   padding: 10px;
-  font-family: helvetica;
-  color: gold;
+  /* font-family: helvetica; */
+  color: #FCFF4B;
   border-radius: 10px;
   height: 70vh;
   width: 90vw;  
 }
 
 .questions{
-    background-color: #060CE9;
+    background-color: #5995ED;
   border: 1px solid #fff;
   padding: 20px;
   font-size: 30px;
   text-align: center;
   height: 11.5vh;
   cursor: pointer;
+  font-family: 'Aldrich', sans-serif;
 }
 
 .categories{
-    background-color:  #060CE9;
+    background-color:  #5995ED;
     border: 1px solid #fff;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 .modalCustom{
-    background-color: #060CE9;
-    color: gold;
+    background-color: #5995ED;
+    color: #FCFF4B;
 }
 
 .modal-dialog{
@@ -80,4 +89,7 @@ body{
 
 .modalBodyCustom{
     font-size: 3em;
+    font-family: 'Aldrich', sans-serif;
+    text-shadow: 3px 3px black;
+
 }

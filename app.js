@@ -58,7 +58,7 @@ $('.right3').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q3').empty();
-    $('#q3').css('background-color', 'lightgreen')
+    $('#q3').css('background-color', 'limegreen')
     $('#q3').css('pointer-events', 'none');
 })
 
@@ -77,7 +77,7 @@ $('.right4').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q4').empty();
-    $('#q4').css('background-color', 'lightgreen')
+    $('#q4').css('background-color', 'limegreen')
     $('#q4').css('pointer-events', 'none');
 })
 
@@ -96,7 +96,7 @@ $('.right5').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q5').empty();
-    $('#q5').css('background-color', 'lightgreen')
+    $('#q5').css('background-color', 'limegreen')
     $('#q5').css('pointer-events', 'none');
 })
 
@@ -115,7 +115,7 @@ $('.right6').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q6').empty();
-    $('#q6').css('background-color', 'lightgreen')
+    $('#q6').css('background-color', 'limegreen')
     $('#q6').css('pointer-events', 'none');
 })
 
@@ -134,7 +134,7 @@ $('.right7').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q7').empty();
-    $('#q7').css('background-color', 'lightgreen')
+    $('#q7').css('background-color', 'limegreen')
     $('#q7').css('pointer-events', 'none');
 })
 
@@ -153,7 +153,7 @@ $('.right8').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q8').empty();
-    $('#q8').css('background-color', 'lightgreen')
+    $('#q8').css('background-color', 'limegreen')
     $('#q8').css('pointer-events', 'none');
 })
 
@@ -172,7 +172,7 @@ $('.right9').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q9').empty();
-    $('#q9').css('background-color', 'lightgreen')
+    $('#q9').css('background-color', 'limegreen')
     $('#q9').css('pointer-events', 'none');
 })
 
@@ -191,7 +191,7 @@ $('.right10').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q10').empty();
-    $('#q10').css('background-color', 'lightgreen')
+    $('#q10').css('background-color', 'limegreen')
     $('#q10').css('pointer-events', 'none');
 })
 
@@ -210,7 +210,7 @@ $('.right11').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q11').empty();
-    $('#q11').css('background-color', 'lightgreen')
+    $('#q11').css('background-color', 'limegreen')
     $('#q11').css('pointer-events', 'none');
 })
 
@@ -229,7 +229,7 @@ $('.right12').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q12').empty();
-    $('#q12').css('background-color', 'lightgreen')
+    $('#q12').css('background-color', 'limegreen')
     $('#q12').css('pointer-events', 'none');
 })
 
@@ -248,7 +248,7 @@ $('.right13').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q13').empty();
-    $('#q13').css('background-color', 'lightgreen')
+    $('#q13').css('background-color', 'limegreen')
     $('#q13').css('pointer-events', 'none');
 })
 
@@ -267,7 +267,7 @@ $('.right14').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q14').empty();
-    $('#q14').css('background-color', 'lightgreen')
+    $('#q14').css('background-color', 'limegreen')
     $('#q14').css('pointer-events', 'none');
 })
 
@@ -286,7 +286,7 @@ $('.right15').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q15').empty();
-    $('#q15').css('background-color', 'lightgreen')
+    $('#q15').css('background-color', 'limegreen')
     $('#q15').css('pointer-events', 'none');
 })
 
@@ -305,7 +305,7 @@ $('.right16').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q16').empty();
-    $('#q16').css('background-color', 'lightgreen')
+    $('#q16').css('background-color', 'limegreen')
     $('#q16').css('pointer-events', 'none');
 })
 
@@ -324,7 +324,7 @@ $('.right17').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q17').empty();
-    $('#q17').css('background-color', 'lightgreen')
+    $('#q17').css('background-color', 'limegreen')
     $('#q17').css('pointer-events', 'none');
 })
 
@@ -343,7 +343,7 @@ $('.right18').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q18').empty();
-    $('#q18').css('background-color', 'lightgreen')
+    $('#q18').css('background-color', 'limegreen')
     $('#q18').css('pointer-events', 'none');
 })
 
@@ -362,7 +362,7 @@ $('.right19').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q19').empty();
-    $('#q19').css('background-color', 'lightgreen')
+    $('#q19').css('background-color', 'limegreen')
     $('#q19').css('pointer-events', 'none');
 })
 
@@ -381,7 +381,7 @@ $('.right20').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q20').empty();
-    $('#q20').css('background-color', 'lightgreen')
+    $('#q20').css('background-color', 'limegreen')
     $('#q20').css('pointer-events', 'none');
 })
 
@@ -400,7 +400,7 @@ $('.right21').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q21').empty();
-    $('#q21').css('background-color', 'lightgreen')
+    $('#q21').css('background-color', 'limegreen')
     $('#q21').css('pointer-events', 'none');
 })
 
@@ -419,7 +419,7 @@ $('.right22').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q22').empty();
-    $('#q22').css('background-color', 'lightgreen')
+    $('#q22').css('background-color', 'limegreen')
     $('#q22').css('pointer-events', 'none');
 })
 
@@ -438,7 +438,7 @@ $('.right23').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q23').empty();
-    $('#q23').css('background-color', 'lightgreen')
+    $('#q23').css('background-color', 'limegreen')
     $('#q23').css('pointer-events', 'none');
 })
 
@@ -457,7 +457,7 @@ $('.right24').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q24').empty();
-    $('#q24').css('background-color', 'lightgreen')
+    $('#q24').css('background-color', 'limegreen')
     $('#q24').css('pointer-events', 'none');
 })
 
@@ -476,7 +476,7 @@ $('.right25').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore)
     $('#q25').empty();
-    $('#q25').css('background-color', 'lightgreen')
+    $('#q25').css('background-color', 'limegreen')
     $('#q25').css('pointer-events', 'none');
 })
 
