@@ -62,7 +62,9 @@ body{
   cursor: pointer;
   font-family: 'Aldrich', sans-serif;
 }
-
+#dDouble{
+    animation: hueRotate 2s infinite;
+}
 .categories{
     background-color:  #5995ED;
     border: 1px solid #fff;
@@ -85,6 +87,7 @@ body{
 .modalFooterCenter{
     display: flex;
     justify-content: center;
+    color: #FCFF4B
 }
 
 .modalBodyCustom{
