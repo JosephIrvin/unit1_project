@@ -1,23 +1,35 @@
+// Variable to hold the players score.
 let playerScore = 0;
 
 // console.log($('#q1').data('value'))
 
 // Question 1
+// Onclick event for the right answers button in the questions modal
 $('.right1').on('click', () => {
+    // Adds the data-value attribute from the questions HTML to the playerScore variable if the right answer is picked
     playerScore += $('#q1').data('value');
     console.log(playerScore);
+    // Updates the new score visually in the HTML
     $('#scoreValue').html(playerScore);
+    // Clears the money value visually from the answered question on the board
     $('#q1').empty();
-    $('#q1').css('background-color', 'lightgreen');
+    // Changes the background of the answered question to green if you got it correct
+    $('#q1').css('background-color', 'limegreen');
+    // Disables the ability to click on a question you've already answered
     $('#q1').css('pointer-events', 'none');
 })
 
 $('.wrong1').on('click', () => {
+    // Subtracts the data-value attribute from the questions HTML to the playerScore variable if the wrong answer is picked
     playerScore -= $('#q1').data('value');
     console.log(playerScore);
+    // Updates the new score visually in the HTML
     $('#scoreValue').html(playerScore);
+    // Clears the money value visually from the answered question on the board
     $('#q1').empty();
+    // Changes the background of the answered question to red if you got it incorrect
     $('#q1').css('background-color', 'red');
+    // Disables the ability to click on a question you've already answered
     $('#q1').css('pointer-events', 'none');
 })
 
@@ -27,7 +39,7 @@ $('.right2').on('click', () => {
     console.log(playerScore);
     $('#scoreValue').html(playerScore);
     $('#q2').empty();
-    $('#q2').css('background-color', 'lightgreen');
+    $('#q2').css('background-color', 'limegreen');
     $('#q2').css('pointer-events', 'none');
 })
 
@@ -478,7 +490,13 @@ $('.wrong25').on('click', () => {
 })
 
 
+// Alerts for the end game function are code from SweetAlert   https://sweetalert.js.org/
+
+
+
+// Function for the end game button
 $('#endgame').on('click', () => {
+    // Checks to see if EVERY question is answered and then if the score is higher than zero
    if($('#q1').is(':empty') && $('#q2').is(':empty') && $('#q3').is(':empty') && $('#q4').is(':empty')
 && $('#q5').is(':empty') && $('#q6').is(':empty') && $('#q7').is(':empty') && $('#q8').is(':empty')
 && $('#q9').is(':empty') && $('#q10').is(':empty') && $('#q11').is(':empty') && $('#q12').is(':empty')
@@ -493,6 +511,7 @@ $('#endgame').on('click', () => {
         button: "Close",
       });
 }
+    // Checks to see if EVERY question is answered and then if the score is lower than or equal to zero
 else if($('#q1').is(':empty') && $('#q2').is(':empty') && $('#q3').is(':empty') && $('#q4').is(':empty')
 && $('#q5').is(':empty') && $('#q6').is(':empty') && $('#q7').is(':empty') && $('#q8').is(':empty')
 && $('#q9').is(':empty') && $('#q10').is(':empty') && $('#q11').is(':empty') && $('#q12').is(':empty')
