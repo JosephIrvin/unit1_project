@@ -526,5 +526,13 @@ else if($('#q1').is(':empty') && $('#q2').is(':empty') && $('#q3').is(':empty') 
         button: "Close",
       });
 } 
+else{
+    swal({
+        title: "Game not finished",
+        text: "Please answer every question",
+        icon: "warning",
+        button: "Close",
+      });
+}
 })
 
