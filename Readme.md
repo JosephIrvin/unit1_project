@@ -21,7 +21,8 @@ For the value of the questions it seemed easier to give that number in the HTML 
 
 ### Wireframe Vs. Final Product
 
-![wireframe](https://i.imgur.com/P2yJjNI.jpg)
+![wireframe](https://i.imgur.com/snpNtWM.jpg)
+![final](https://i.imgur.com/uvZx0IS.png)
 
 
 ### [Trello](https://trello.com/b/M8yrs8Rz/unit1project)
